@@ -20,7 +20,7 @@ COPY . /app/
 
 # Create necessary directories
 # Log files are now stored in database only
-RUN mkdir -p /config && chmod -R 755 /config
+RUN mkdir -p /config
 
 # Set environment variables
 ENV PYTHONPATH=/app
